@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using DemoWepApi.Custom;
+using DemoWepApi.Custom;
 using EmployeeService;
 using System;
 using System.Collections.Generic;
@@ -50,34 +49,3 @@ namespace DemoWepApi
 		}
 	}
 }
-=======
-﻿using EmployeeService;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
-
-namespace DemoWepApi
-{
-	public static class WebApiConfig
-	{
-		public static void Register(HttpConfiguration config)
-		{
-			// Web API configuration and services
-			
-			
-			// Web API routes
-			config.MapHttpAttributeRoutes();
-
-			config.Routes.MapHttpRoute(
-				name: "Employee",
-				routeTemplate: "api/{controller}/{id}",
-				defaults: new { controller = "Employee", action = "Get", id = RouteParameter.Optional }
-			);
-			config.Formatters.Remove(config.Formatters.XmlFormatter);
-			config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
-			config.Filters.Add(new BasicAuthenticationAttribute());
-		}
-	}
-}
->>>>>>> 48519c170f7a5ef40e93f1b0fd1bce1b2698c3d0
