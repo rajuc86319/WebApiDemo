@@ -8,7 +8,7 @@ using EmployeeDataAccess;
 using System.Threading;
 using EmployeeService;
 
-namespace WebApiTraining.Controllers
+namespace DemoWepApi.Controllers
 {
 	public class EmployeeController : ApiController
 
@@ -16,6 +16,7 @@ namespace WebApiTraining.Controllers
 		
 		[BasicAuthentication]
 	    [HttpGet]
+		//[Route("api/Employee/")]
 		public HttpResponseMessage Get()
 		{
 			using (EmployeeDBEntities entities = new EmployeeDBEntities())

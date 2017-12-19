@@ -1,5 +1,3 @@
-c:\users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.csprojResolveAssemblyReference.cache
-c:\users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.csproj.CoreCompileInputs.cache
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\ApplicationInsights.config
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\DemoWepApi.dll.config
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\DemoWepApi.dll
@@ -51,5 +49,7 @@ C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\Microsoft.AI.Depe
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\bin\Microsoft.AI.Web.xml
+C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.csprojResolveAssemblyReference.cache
+C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.csproj.CoreCompileInputs.cache
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.dll
 C:\Users\sreeramtankala\source\repos\DemoWepApi\DemoWepApi\obj\Debug\DemoWepApi.pdb
